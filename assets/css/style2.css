@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  color: white;
+  background-image: url(./../imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+}
+
+main {
+  color: white;
+  background-color: black;
+}
+
+.headerClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.iconT {
+  height: 200px;
+  width: 200px;
+  padding-top: 50px;
+  font-size: 5rem;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.mainClass {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+.youtube {
+  width: 33%;
+}
+.cuorses {
+  width: 33%;
+}
+.freelancing {
+  width: 33%;
+}
+
+.iconMain {
+  padding-top: 50px;
+  font-size: 5rem;
+}
+
+.Social {
+  font-size: 2rem;
+}
+.aboutUs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.iconAboutUs {
+  display: flex !important; 
+  font-size: 10rem;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 50px;
+
+}
+.footerText {
+  flex-direction: column;
+
+}
+.footerText, .iconAboutUs {
+  width: 50vw;
+  height: 100%;
+}
